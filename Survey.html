@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<img src="Pill.jpg" width="500" height="300"alt="My Website">
+
+<head>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<title>The Matrix</title>
+
+</head>
+
+
+
+<body>
+
+
+ <h1></h1>
+ 
+
+<h1>&ensp;&ensp;&emsp;&emsp;Red Pill vs Blue Pill Survery</h1>
+
+<!--Navigation links-->
+&emsp;<a href="index.html">Home</a>&emsp;
+<a href="Movie List.html">Movie List</a>&emsp;
+<a href="Survey.html">Survey</a>&emsp;
+<a href="https://www.google.com/" target="blank">Google</a>
+
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafdf9;
+        }
+
+        form {
+            width: 350px;
+            margin: 30px;
+            padding: 20px;
+            background-color: #757575;
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 6px;
+            margin-top: 5px;
+            background-color: #b6a6a66e;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        fieldset {
+            margin-top: 15px;
+            padding: 10px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: rgb(255, 255, 255);
+            padding: 8px 12px;
+            border: none;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        input[type="reset"] {
+            background-color: #f44336;
+            color: rgb(248, 248, 250);
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+
+<form>
+    <h3>In "The Matrix", Neo chooses to take the Red pill to continue down the rabbit hole and learn the unsettling truth about reality. If you were in Neo's place, which pill would you choose?</h3>
+
+    <label for="firstName">First Name</label>
+    <input type="text" id="firstName" name="firstName">
+
+    <label for="lastName">Last Name</label>
+    <input type="text" id="lastName" name="lastName">
+
+    <label for="movieType">Favorite Matrix Charater</label>
+    <select id="movieType" name="movieType">
+        <option value="">--Select one--</option>
+        <option value="action">Neo</option>
+        <option value="comedy">Morpheus</option>
+        <option value="drama">Trinity</option>
+        <option value="horror">Agent Smith</option>
+        <option value="horror">Cypher</option>
+        <option value="horror">Tank</option>
+        <option value="horror">Dozer</option>
+        <option value="horror">Oracle</option>
+        <option value="horror">Apoc</option>
+        <option value="horror">Mouse</option>
+        <option value="horror">Switch</option>
+    </select>
+
+    <fieldset>
+        <legend>Choose your pill</legend>
+        <label>
+            <input type="radio" name="preference" value="movies"> Red Pill
+        </label>
+        <label>
+            <input type="radio" name="preference" value="tv"> Blue Pill
+        </label>
+    </fieldset>
+    <label for="comments">Comments</label>
+    <textarea id="comments" name="comments" placeholder="enter your comments here...."></textarea>
+
+    <div class="buttons">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div>
+</form>
+
+
+ <p></p>
